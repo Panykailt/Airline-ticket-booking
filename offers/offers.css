@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    padding: 0px 8%;
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    background-color: white;
+   
+}
+.container nav h1{
+    color: blue;
+
+}
+.logo{
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li{
+    color: #fff;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color: #c51e9b;
+    font-weight: 500;
+    cursor: pointer;
+}
+.my-head-div{
+    height: 360px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.second-contenar{
+    padding: 10px;
+   
+}
+.img-link{
+    height: 300px;
+    width: 300px;
+}

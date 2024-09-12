@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    /* box-sizing: border-box; */
+    
+}
+html,body{
+    width: 100%;
+    /* height: 200%; */
+    background-color: aliceblue;
+    
+}
+
+.container{
+    width:100%;
+    background-color: rgb(134, 209, 209);
+    
+}
+.main-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    
+}
+.logo{
+    width: 70px;
+    height: 50px;
+
+}
+.nav-body{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+   
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+
+}
+
+.div-body{
+
+    width: 80%;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    margin-left: 140px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.first-div{
+    width: 60%;
+    height: 80%;
+    margin-top: 20px;
+}
+
+.input-text{
+  width: 300px;
+  height: 40px;
+  padding-left: 20px;
+  
+}
+
+.input-btn{
+width: 100px;
+height: 45px;
+color: black;
+
+}
+.input-btn:hover{
+    background-color: blue;
+}
+
+.first-class{
+    width: 100px;
+    margin-top: 30px;
+}
+.second-div{
+    margin-top: 20px;
+}
+.third-div{
+    width: 100px;
+    padding: 30px;
+}
+
+.div-body-sec{
+
+    width: 80%;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    margin-left: 140px;
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.four-div{
+    width:30%;
+    height:20%;
+    /* background-color: azure;
+    border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+.div-img{
+    width: 50px;
+    border-radius: 50%;
+}
+/* ********************************************************************************** */
+
+.div-body-third{
+    width: 80%;
+    height: 16%;
+    margin-top: 60px;
+    margin-left: 140px;
+    background-color: white;
+    border-radius: 10px; 
+    padding: 10px;
+    
+}
+
+.div-body-four{
+    width: 80%;
+    margin-top: 60px;
+    margin-left: 140px;
+    padding: 10px;
+    display: flex;
+}
+.d4{
+    width: 600px;
+    height: 200px;
+
+}
+/* ********************************************************************** */
+
+.footer-body{
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    display: flex;
+}
+
+.footer-link{
+    margin-top: 60px;
+    margin-left: 140px;
+    padding: 10px;
+    display: flex;
+
+    
+}
