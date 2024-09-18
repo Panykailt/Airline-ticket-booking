@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     font-family: 'poppins',sans-serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     
 }
 html,body{
     width: 100%;
-    /* height: 200%; */
     background-color: aliceblue;
     
 }
@@ -48,3 +47,145 @@ html,body{
 
 }
 
+.content{
+    width: 70%;
+    height: 30%;
+    background-color: aqua;
+}
+
+.main-div{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    padding: 90px;
+    
+}
+.second-body{
+    width: 600px;
+    height: 100px;
+    background-color:black;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    font-size: 25px;
+    color: #fff;
+
+}
+.third-body{
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 70px;
+    padding-top: 20px;
+
+}
+
+.button-body{
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    padding-left: 250px;
+    
+    
+}
+.click{
+    width: 300px;
+    height: 150px;
+    border: 1px solid white;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: large;
+    color: #fff;
+    background-color: black;
+}
+.text-body{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 80px;
+}
+
+.link-body{
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    padding: 40PX;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+}
+.link-a{
+    text-decoration: none;
+    color: #fff;
+   
+}
+.color-div{
+    height: 5px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.map-div{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+
+}
+.space-div{
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+   
+
+}
+.footar{
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.a1{
+    width: 350px;
+    height: 90px;
+    border: 1px solid black;
+    padding-left: 50px;
+    font-size: 30px;
+    padding-top: 10px;
+    
+
+}
+img{
+    width: 200px;
+    border-radius: 5px;
+
+}
+.a2{
+    width: 600px;
+    height: 90px;
+    background-color: black;
+    padding-top: 20px;
+    color: white;
+
+}
+.a3{
+    width: 400px;
+    height: 90px;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+   
+
+}
